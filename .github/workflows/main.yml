@@ -24,6 +24,9 @@ jobs:
 
       - name: Build
         run: npm run build
+      
+      - name: Start
+        run: npm start
 
       - name: Deploy
         env:
