@@ -1,0 +1,13 @@
+.title{
+    text-transform: capitalize;
+}
+.list:hover{
+    background-color: whitesmoke;
+}
+.list:active{
+    background-color: whitesmoke !important;
+}
+li{
+    cursor: pointer;
+    color: royalblue;
+}
