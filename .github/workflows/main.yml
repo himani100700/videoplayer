@@ -24,10 +24,7 @@ jobs:
 
       - name: Build
         run: npm run build
-      
-      - name: Start
-        run: npm start
-
+ 
       - name: Deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
