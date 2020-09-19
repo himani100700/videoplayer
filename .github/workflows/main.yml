@@ -34,4 +34,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-south-1 \
-            dist/booking-app/ s3://$AWS_BUCKET
+            dist/ s3://$AWS_BUCKET
